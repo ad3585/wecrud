@@ -17,7 +17,8 @@ class ContactController extends Controller
         return view ('contacts.index')->with('contacts', $contacts);
     }
 
-    /**
+    /** 
+    *
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
